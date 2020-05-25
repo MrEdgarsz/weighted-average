@@ -1,0 +1,21 @@
+{
+   "browser_action": {
+      "default_icon": "ico.png"
+   },
+   "content_scripts": [ {
+      "js": [ "srednia.js" ],
+      "matches": [ "https://dziennik.oswiatawradomiu.pl/przegladaj_oceny/uczen", "https://dziennik.oswiatawradomiu.pl/uczen_index" ]
+   } ],
+   "description": "Liczy średnią ważoną na stronie librusa oswiatawradomiu.pl",
+   "icons": {
+      "128": "ico.png",
+      "16": "ico16.png",
+      "48": "ico48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiodIBIojbk3lzBcajw31g9bzSweQN/KaSzu/pd5wcH934aUb9q4r4xrqp/SVYxQzgsdB6bH80vtwGnBSJSqamJNnrA3YGVXMjmA2p8BO7RFSH356X/1vDrUChtZ+QKThp6j0aUs4TcVsKgy6TkwRZdJFyLN7HFs/iHNufInXStLOYVTyW6FhAIPnogyfbLeKeMfK+o/QKLlNxZ7ufXjsy1ZNIBalWXRnkZDn9aYW/7fMwJgykvzbORx/N6MKPCFVX5EVCHjhZcmyO+yEdATHD/oEoDunDE7pGTxdAFN2TL9lifCOOdoK3d1SEsQTVaSLejM2VYUccg6/8vQIoMhPPwIDAQAB",
+   "manifest_version": 2,
+   "name": "Librus średnia ważona OSWIATA W RADOMIU",
+   "permissions": [ "tabs", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.2"
+}
