@@ -176,8 +176,8 @@ if (adres.indexOf("przegladaj_oceny/uczen") != -1) {
 	element1.innerHTML = "Średnia obliczona dzięki oprogramowaniu Dominika Szpilskiego | www.edgarsz.pl";
 	document.getElementsByTagName('TBODY')[5].appendChild(element);
 	element.appendChild(element1);
-	semestr(2,3);
-	semestr(6,7);
+	semestr(tabela.p_oceny,tabela.p_srednia);
+	semestr(tabela.d_oceny,tabela.d_srednia);
 	rok();
 }
 if (adres.indexOf("przegladaj_oceny/uczen") != -1) {
